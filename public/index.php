@@ -41,6 +41,7 @@ $di['smarty'] = function(){
 	$smarty->compile_check = _SMARTY_COMPILE_CHECK;
 	$smarty->debugging = _SMARTY_DEBUGGING;
 	$smarty->caching = _SMARTY_CACHEING;
+
 	$smarty->addPluginsDir(_SMARTY_PLUGIN_DIR);
 	return $smarty;
 };
